@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jojomn/codeclan/Home_Practice/c_sharp_practice/toExecuteToBrowser/src/src.csproj": {}
+  },
+  "projects": {
+    "/Users/jojomn/codeclan/Home_Practice/c_sharp_practice/toExecuteToBrowser/src/src.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jojomn/codeclan/Home_Practice/c_sharp_practice/toExecuteToBrowser/src/src.csproj",
+        "projectName": "src",
+        "projectPath": "/Users/jojomn/codeclan/Home_Practice/c_sharp_practice/toExecuteToBrowser/src/src.csproj",
+        "packagesPath": "/Users/jojomn/.nuget/packages/",
+        "outputPath": "/Users/jojomn/codeclan/Home_Practice/c_sharp_practice/toExecuteToBrowser/src/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jojomn/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.3.0-preview8-19405-04, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
